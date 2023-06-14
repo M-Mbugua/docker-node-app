@@ -8,9 +8,14 @@ An application that allows the user to create, retrieve, update or delete employ
 
 - Axios
 - Docker
-- Express
+- Express.js
 - MongoDB
 - Mongoose
-- Node
-- React
+- Node.js
+- React.js
 - REST API
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
+
