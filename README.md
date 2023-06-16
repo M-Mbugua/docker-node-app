@@ -2,21 +2,27 @@
 
 ## Description
 
-A back-end application that allows the user to create, retrieve, update or delete employee records that consist of first name, surname, department and their leave status. The data is stored in a MongoDB database with a Node server.
+A back-end application that allows the user to create, retrieve, update or delete employee records that consist of first name, surname, department and their leave status. The data is stored in a MongoDB database using a Node server via a REST API.
+
+## Prerequisites
+
+The application requires that npm and docker are installed locally.
 
 ## Installation
 
-Install the application dependencies (these can be found in the package.json file). 
+Build the docker image: 
 
-    npm install 
+    docker-compose up
 
-To run the application, enter the following command:
+Run the application:
 
-    node server.js
+    docker -d run
+
 
 ## Technologies Used
 
 - Docker
+- Docker Compose
 - Express
 - MongoDB
 - Mongoose
